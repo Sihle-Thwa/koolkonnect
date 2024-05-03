@@ -61,7 +61,7 @@
   }
   
   .contact-form button {
-    
+    display: grid;
     justify-self: center;
     width: fit-content;
     color: #FFFFFF;
@@ -91,6 +91,15 @@
         display: none;
     }
     .contact-form{
-        width: 100%;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .form{
+      display: grid;
+      justify-content: center;
+      align-items: center;
     }
   }

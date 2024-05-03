@@ -13,6 +13,7 @@
 }
 
 .pricing-card{
+    
     border-radius: 12px;
     align-items: center;
     text-align:center;
@@ -123,5 +124,6 @@ hr.second{
         height: min-content;
         width: 45vw;
         min-width: 45vw;
+        gap: 1rem;
     }
 }

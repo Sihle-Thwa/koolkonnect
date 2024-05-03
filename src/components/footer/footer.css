@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.body{
-    
-}
+
 *{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -28,7 +26,7 @@
   }
   
   .footer-left {
-    display: flex;
+    display: grid;
     align-items: center;
     flex-direction: column;
   }
@@ -64,10 +62,14 @@
 
   @media screen and (max-width: 720px){
     .footer-wrapper{
+      justify-content: center;
+      align-items: center;
       display: grid;
     }
     .footer-content{
-      display:contents;
+      display:grid;
+      justify-content: space-evenly;
+      flex: wrap;
     }
     .list{
       display: grid;

@@ -12,10 +12,10 @@ a{
 .header{
     position: relative;
     overflow: hidden;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    align-content: flex-start;
     height: max-content;
     z-index: -1;
 
@@ -34,8 +34,7 @@ a{
     width: 100%;
     height: max-content;
     position: relative;
-    top: 0;
-    left: 0;
+    
     backface-visibility: hidden;
     transition: all 0.4s ease-in-out;
 }
@@ -44,7 +43,6 @@ a{
     flex: 0 0 auto;
     display: grid;
     padding: 15% 10% 0 10%;
-    width: 50%;
     text-align: center;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
@@ -83,4 +81,12 @@ a{
         transition: all 150ms linear;
         opacity: .85;
     }
+}
+
+@media screen and (max-width: 720px) {
+    .header{
+        display: grid;
+        position: relative;
+    }
+     
 }

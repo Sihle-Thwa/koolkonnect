@@ -45,7 +45,7 @@ function TopNav() {
                             color: 'white',
                             textDecoration: 'none'
                         }}>
-                        Service
+                        Products
                     </Link>
                     <Link href="/contact" className="nav-links nav-item"
                         sx={{

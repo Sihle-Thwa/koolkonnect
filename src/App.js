@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
 import Product from './pages/product/Product';
+import Team from './pages/team/Team';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <TopNav />
       <Header />
       <About />
+      <Team />
       <Product />
       <Contact />
       <Footer />
