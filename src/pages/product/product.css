@@ -9,7 +9,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .pricing-card{
@@ -18,7 +18,8 @@
     align-items: center;
     text-align:center;
     padding: 1rem;
-    width: 20vw;
+    width: 30vw;
+    height: fit-content;
 }
 
 .features li {
@@ -84,12 +85,8 @@ hr.second{
 }
 
 .pricing-card:hover{
-    border-radius: 12px;
     background-color: #416dea;
     color: white;
-    align-items: center;
-    text-align:center;
-    display: block;
 
     .card-title{
         color: #fff;
@@ -121,7 +118,7 @@ hr.second{
     }
     .pricing-card {
         margin-top: 0.5rem;
-        height: min-content;
+        height: max-content;
         width: 45vw;
         min-width: 45vw;
         gap: 1rem;
