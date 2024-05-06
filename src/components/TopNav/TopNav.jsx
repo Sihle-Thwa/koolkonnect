@@ -17,7 +17,7 @@ function TopNav() {
             <div className="navbar-container">
                 <Link href="/" className="nav-logo"
                     sx={{
-                        color: 'white',
+
                         textDecoration: 'none',
                         fontSize: 'Larger',
                         fontFamily: 'sans-serif',
@@ -28,28 +28,27 @@ function TopNav() {
                 <nav className={`nav-menu ${expand ? 'active' : ''}`}>
                     <Link href="/" className="nav-links nav-item active"
                         sx={{
-                            color: 'white',
+
                             textDecoration: 'none'
                         }}>
                         Home
                     </Link>
                     <Link href="/about" className="nav-links nav-item"
                         sx={{
-                            color: 'white',
+
                             textDecoration: 'none'
                         }}>
                         About
                     </Link>
                     <Link href="/service" className="nav-links nav-item"
                         sx={{
-                            color: 'white',
+
                             textDecoration: 'none'
                         }}>
                         Products
                     </Link>
                     <Link href="/contact" className="nav-links nav-item"
                         sx={{
-                            color: 'white',
                             textDecoration: 'none'
                         }}>
                         Contact
@@ -58,9 +57,9 @@ function TopNav() {
                 <div className="nav-icon" onClick={handleExpand}
                 >
                     <div className="icon">
-                        {expand ? <CloseIcon sx={{ color: 'white' }} />
+                        {expand ? <CloseIcon />
                             :
-                            <MenuIcon color='white' sx={{ color: 'white' }} />
+                            <MenuIcon />
                         }
                     </div>
                 </div>

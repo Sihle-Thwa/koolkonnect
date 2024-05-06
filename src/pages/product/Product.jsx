@@ -104,7 +104,6 @@ function Product() {
 
             </div>
         </section>
-
     )
 }
 

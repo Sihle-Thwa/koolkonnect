@@ -1,11 +1,10 @@
 import React from 'react';
 import './about.css';
-import { Card, CardContent, Typography, Box, CardMedia } from '@mui/material';
+import { Card, CardContent, Typography, Box } from '@mui/material';
 import { PiStrategy } from "react-icons/pi";
 import { IoIosCreate } from "react-icons/io";
 import { TbBuildingCommunity } from "react-icons/tb";
 import { RiAdvertisementFill } from "react-icons/ri";
-import planImg from './planning.jpg'
 
 
 
@@ -18,12 +17,7 @@ function About() {
             <div className='about-info'>
                 <h3>Why You Should Choose KoolKonnect</h3>
             </div>
-            <div className='about-img'>
-                <CardMedia
-                    component='img'
-                    image={planImg}
-                />
-            </div>
+
             <div className='about-cards'>
                 <Card className='about-card'>
                     <CardContent>

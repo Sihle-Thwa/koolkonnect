@@ -6,11 +6,12 @@
     justify-content: center;
     position: sticky;
     font-size: large;
-    font-weight: 600
+    font-weight: 600;
+    z-index: 2;
 }
 
 .navbar-container {
-    background-color: #416dea;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +22,7 @@
 }
 
 .nav-logo {
+    color: #416dea;
     cursor: pointer;
     text-decoration: none;
     margin-left: 20px;
@@ -28,9 +30,11 @@
     flex-grow: 1;
     font-family: 'Montserrat', sans-serif;
     
+    
 }
 
 .nav-menu{
+
     display: flex;
     list-style: none;
     text-align:center;
@@ -46,6 +50,7 @@
     padding: 0.5rem 1rem;
     height: 100%;
     width: 100%;
+    
 }
 
 .nav-item{
@@ -68,6 +73,8 @@
 .nav-icon{
     
     display: none;
+    color: black;
+    
 }
 
 .nav-icon.icon{
@@ -77,8 +84,14 @@
 }
 
 @media screen and (max-width: 720px) {
-   .nav-container{
+   .navbar-container{
+    background-color: #416dea;
         position: relative;
+        
+    }
+
+    .nav-logo{
+        color: white;
     }
    .nav-menu{
         margin: 16px;
@@ -92,7 +105,6 @@
         z-index: 1;
     }
    .nav-menu.active{
-    cursor: pointer;
         display: grid;
         height: max-content;
     }
@@ -102,6 +114,7 @@
         align-content: center;
         width: 100%;
         display: grid;
+        color: white;
     }
    .nav-icon {
         display: block;
@@ -112,6 +125,7 @@
         width: 2rem;
         height: 2rem;
         cursor: pointer;
+        color: white;
     }
    .nav-menu.active {
         width: 100%;
@@ -119,6 +133,7 @@
         transition: all 0.5s ease;
         display: flex;
         opacity: 1;
+        color: white;
       }
       
      .nav-menu:not(.active) {
