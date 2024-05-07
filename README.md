@@ -16,14 +16,18 @@ Welcome to the KoolKonnect website repository! This project serves as the online
    ```bash
    git clone https://github.com/your-username/koolkonnect-website.git
 
-##Features
+## Features
 Responsive Design: The website is built using Material-UI components, ensuring a seamless experience across different devices and screen sizes.
+
 Navigation: React Router is used for client-side routing, allowing smooth navigation between different pages and components.
+
 Google Maps Integration: The Google Maps API is utilized to display interactive maps and provide location-based services, enhancing the user experience.
+
 Dynamic Content: Content management features enable easy updates and additions to the website's pages, ensuring fresh and relevant information for visitors.
-Contributing
+
+## Contributing
 Contributions to the KoolKonnect website are welcome! If you have suggestions for new features, improvements, or bug fixes, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
