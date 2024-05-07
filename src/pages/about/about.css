@@ -35,18 +35,19 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    margin-top: 2rem;
     
 }
 
 .about-card{
-    max-width: 25vw;
+    width: 22.5vw;
     max-height: max-content;
     justify-content: center;
     align-items: center;
     display: grid;
-    min-height: min-content;
+    height: 35vh;
     min-width: min-content;
-    margin: 1rem;
+    margin: 0.5rem;
     box-shadow: 0 2px 4px rgba(0,0,0, 0.1);
     border-radius: 10px;
     overflow: hidden;

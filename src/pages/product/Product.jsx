@@ -24,10 +24,10 @@ function Product() {
     };
     return (
 
-        <section>
+        <section className='section-pricing'>
             <h3 className='pricing-Heading'>Choose your best plan</h3>
             <div className='pricing-radios'>
-                <label>
+                <label className='price-label'>
                     <input
                         type='radio'
                         value='monthly'
@@ -36,7 +36,7 @@ function Product() {
                     />
                     <span>Monthly</span>
                 </label>
-                <label>
+                <label className='price-label'>
                     <input
                         type='radio'
                         value='yearly'

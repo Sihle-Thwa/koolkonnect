@@ -23,6 +23,10 @@
     font-size: medium;
     flex-wrap: wrap;
   }
+  .contact-title{
+    display: block;
+    justify-content:center ;
+  }
   
   .contact-side {
     display: flex;

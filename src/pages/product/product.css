@@ -4,6 +4,32 @@
 *{
     box-sizing: border-box;
 }
+
+.section-pricing{
+    text-align: center;
+    margin: 1rem 0 0;
+    p {
+        padding: 1rem;
+    }
+
+    pricing-radios {
+        display:flex;
+        position: relative;
+        margin: 5%;
+    }
+
+}
+
+.price-label{
+
+    font-size: medium;
+    display: flexbox;
+    position: relative;
+    font-weight: bold;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
 .pricing-cards{
     margin-top: 1.5rem;
     position: relative;
@@ -13,13 +39,16 @@
 }
 
 .pricing-card{
-    
     border-radius: 12px;
     align-items: center;
     text-align:center;
     padding: 1rem;
-    width: 30vw;
+    max-width: 25vw;
+    width: 30%;
     height: fit-content;
+    margin: 5% 0 5%;
+    flex-direction: column;
+    display: flex;
 }
 
 .features li {
@@ -34,8 +63,6 @@
     font-size: xx-large; 
     
 }
-
-
 .card-price {
     display: flex;
     align-items: center;
