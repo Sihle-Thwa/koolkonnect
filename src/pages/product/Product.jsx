@@ -24,7 +24,7 @@ function Product() {
     };
     return (
 
-        <section className='section-pricing'>
+        <section id='product' className='section-pricing'>
             <h3 className='pricing-Heading'>Choose your best plan</h3>
             <div className='pricing-radios'>
                 <label className='price-label'>

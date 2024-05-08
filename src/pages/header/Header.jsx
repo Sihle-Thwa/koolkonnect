@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 function Header() {
     return (
-        <div className='header' >
+        <div id='header' className='header' >
 
             <div className='info'>
                 <h1>Transform Your Social Presence with <span className='colorText'>KoolKonnect</span></h1>

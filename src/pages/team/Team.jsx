@@ -4,7 +4,7 @@ import { CardMedia } from '@mui/material'
 
 function Team() {
     return (
-        <div className='about-us-container'>
+        <div id='team' className='about-us-container'>
             <div className='about-us-content'>
                 <h1>Introduction</h1>
                 <p>

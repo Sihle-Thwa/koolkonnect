@@ -1,11 +1,12 @@
 import './styles.css';
 import TopNav from './components/TopNav/TopNav';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './pages/header/Header';
-import Footer from './components/footer/Footer';
-import Contact from './pages/contact/Contact';
 import About from './pages/about/About';
 import Product from './pages/product/Product';
+import Contact from './pages/contact/Contact';
 import Team from './pages/team/Team';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -13,11 +14,10 @@ function App() {
       <TopNav />
       <Header />
       <About />
-      <Team />
       <Product />
+      <Team />
       <Contact />
       <Footer />
-
     </>
   );
 }

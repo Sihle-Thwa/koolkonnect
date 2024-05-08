@@ -19,7 +19,7 @@ function Contact() {
     };
 
     return (
-        <div className='contact-container'>
+        <div id='contact' className='contact-container'>
             <section className='contact-heading'>
                 <div className='contact-title'>
                     <h1>Contact Us</h1>

@@ -10,7 +10,7 @@ import { RiAdvertisementFill } from "react-icons/ri";
 
 function About() {
     return (
-        <div className='about-wrapper'>
+        <div id='header' className='about-wrapper'>
             <div className='about-header'>
                 <h1>About Us </h1>
             </div>

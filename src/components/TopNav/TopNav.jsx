@@ -12,10 +12,18 @@ function TopNav() {
         setExpand(!expand);
     };
 
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <div className="navbar">
             <div className="navbar-container">
-                <Link href="/" className="nav-logo"
+                <Link href="/#header" className="nav-logo"
+                    onClick={() => scrollToSection('header')}
                     sx={{
 
                         textDecoration: 'none',
@@ -26,28 +34,32 @@ function TopNav() {
                     KoolKonnect
                 </Link>
                 <nav className={`nav-menu ${expand ? 'active' : ''}`}>
-                    <Link href="/" className="nav-links nav-item active"
+                    <Link href="/#header" className="nav-links nav-item active"
+                        onClick={() => scrollToSection('header')}
                         sx={{
 
                             textDecoration: 'none'
                         }}>
                         Home
                     </Link>
-                    <Link href="/about" className="nav-links nav-item"
+                    <Link href="/#about" className="nav-links nav-item"
+                        onClick={() => scrollToSection('about')}
                         sx={{
 
                             textDecoration: 'none'
                         }}>
                         About
                     </Link>
-                    <Link href="/service" className="nav-links nav-item"
+                    <Link href="/#product" className="nav-links nav-item"
+                        onClick={() => scrollToSection('product')}
                         sx={{
 
                             textDecoration: 'none'
                         }}>
                         Products
                     </Link>
-                    <Link href="/contact" className="nav-links nav-item"
+                    <Link href="/#contact" className="nav-links nav-item"
+                        onClick={() => scrollToSection('contact')}
                         sx={{
                             textDecoration: 'none'
                         }}>

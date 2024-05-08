@@ -1,15 +1,35 @@
 import './footer.css'
+import { Link } from '@mui/material'
 
-const Footer = () => {
+function Footer() {
+
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <div className='footer-wrapper'>
             <div className='footer-content'>
                 <div className='footer-left'>
-                    <ul className='list'>
-                        <li className='list-item'><a>about us</a></li>
-                        <li className='list-item'><a>services</a></li>
-                        <li className='list-item'><a>contact us</a></li>
-                    </ul>
+                    <div className='list'>
+                        <Link href="/#about" className='list-item'
+                            onClick={() => scrollToSection('about')}
+                        >
+                            about us
+                        </Link>
+                        <Link href="/#service" className='list-item'
+                            onClick={() => scrollToSection('service')}
+                        >
+                            services
+                        </Link>
+                        <Link href="/#contact" className='list-item'
+                            onClick={() => scrollToSection('contact')}
+                        >
+                            contact us
+                        </Link>
+                    </div>
                     <h5>Site made by Siphesihle B. Mthethwa</h5>
                 </div>
                 <div className='footer-right'>
